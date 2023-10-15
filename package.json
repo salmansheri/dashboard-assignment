@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^4.4.0",
     "clsx": "^2.0.0",
     "cva": "^0.0.0",
+    "faker": "^6.6.6",
     "lucide-react": "^0.287.0",
     "next": "13.5.4",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
+    "recharts": "^2.9.0",
     "tailwind-merge": "^1.14.0"
   },
   "devDependencies": {

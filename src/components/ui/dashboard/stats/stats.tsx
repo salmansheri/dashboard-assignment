@@ -4,7 +4,7 @@ import { statsData } from "@/lib/constants/data";
 
 const Stats = () => {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 gap-5 h-[150px]">
+    <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-5 gap-5 min-h-[150px]">
       {statsData.map((data) => (
         <StatsInfoCard
           key={data.id}

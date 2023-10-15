@@ -18,10 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-background">
         <div className="h-full relative">
-          <div className="fixed w-72 z-50 h-screen inset-y-0">
+          <div className="hidden md:flex md:fixed md:w-72 md:flex-col z-50 h-screen md:inset-y-0">
             <Sidebar />
           </div>
-          <main className="pl-72">
+          <main className="md:pl-72">
             <div className="px-10 py-7">
               <Header />
               {children}
