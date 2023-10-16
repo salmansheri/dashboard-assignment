@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="flex items-center h-20 justify-between w-full">
       <div className="hidden lg:flex gap-x-2 items-center ">
-        <h1 className="font-bold text-xl ">Hello Pradeep</h1>
+        <h1 className="font-bold text-xl ">Hello Kalaivani!</h1>
         <Hand />
         {","}
       </div>

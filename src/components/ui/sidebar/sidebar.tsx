@@ -43,7 +43,7 @@ const Sidebar = () => {
         <div className="flex items-center bg-blue-300/20 p-2 rounded-md -mx-3 cursor-pointer text-[#ffffff]">
           <div className="relative h-8 w-9 rounded-full overflow-hidden">
             <Image
-              src="/images/pradeep.png"
+              src="/images/girl.png"
               alt="photo"
               fill
               className="object-cover object-center"
@@ -51,7 +51,7 @@ const Sidebar = () => {
           </div>
           <div className="flex items-center justify-between w-full pl-2">
             <div>
-              <p className="font-medium text-base">Pradeep</p>
+              <p className="font-medium text-base">Kalaivani</p>
               <p className="text-xs">Project Manager</p>
             </div>
             <ChevronDown />
